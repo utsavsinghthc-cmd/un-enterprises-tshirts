@@ -32,11 +32,17 @@ background:transparent;
 }
 
 .logo{
-font-size:1.5rem;
-font-weight:800;
-color:#fff;
-letter-spacing:.02em;
-text-shadow:0 8px 24px rgba(0,0,0,.28);
+display:inline-flex;
+align-items:center;
+text-decoration:none;
+}
+
+.logo img{
+height:70px;
+width:auto;
+display:block;
+object-fit:contain;
+filter:drop-shadow(0 8px 24px rgba(0,0,0,.28));
 }
 
 .nav-btn{
@@ -357,6 +363,23 @@ padding:28px 18px;
 font-weight:500;
 }
 
+.footer-logo{
+height:60px;
+width:auto;
+display:block;
+object-fit:contain;
+margin:0 auto 15px;
+}
+
+.footer-brand{
+font-weight:800;
+}
+
+.footer-registrations{
+margin-top:6px;
+color:rgba(255,255,255,.82);
+}
+
 footer a{
 display:inline-block;
 margin-top:8px;
@@ -442,8 +465,12 @@ box-shadow:0 16px 42px rgba(22,163,74,.55),0 0 0 10px rgba(37,211,102,.12);
 padding:18px 20px;
 }
 
-.logo{
-font-size:1.25rem;
+.logo img{
+height:55px;
+}
+
+.footer-logo{
+height:50px;
 }
 
 .nav-btn{
